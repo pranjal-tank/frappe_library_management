@@ -1,0 +1,154 @@
+2023-12-05 12:05:44,540 DEBUG cd frappe-bench && python3 -m venv env
+2023-12-05 12:05:47,888 DEBUG cd frappe-bench && /home/its_pt/Work/frappe_learn/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-12-05 12:05:49,908 LOG Getting frappe
+2023-12-05 12:05:49,909 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2023-12-05 12:06:06,935 LOG Installing frappe
+2023-12-05 12:06:06,935 DEBUG cd /home/its_pt/Work/frappe_learn/frappe-bench && /home/its_pt/Work/frappe_learn/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/its_pt/Work/frappe_learn/frappe-bench/apps/frappe 
+2023-12-05 12:06:51,431 DEBUG cd /home/its_pt/Work/frappe_learn/frappe-bench/apps/frappe && yarn install
+2023-12-05 12:07:30,230 DEBUG cd frappe-bench && bench build
+2023-12-05 12:07:30,534 INFO /usr/local/bin/bench build
+2023-12-05 12:07:51,088 LOG setting up backups
+2023-12-05 12:07:51,668 LOG backups were set up
+2023-12-05 12:07:51,729 INFO Bench frappe-bench initialized
+2023-12-05 12:07:52,188 INFO A newer version of bench is available: 5.14.3 → 5.19.0
+2023-12-05 12:15:47,356 INFO /usr/local/bin/bench start
+2023-12-05 12:15:49,248 INFO /usr/local/bin/bench serve --port 8000
+2023-12-05 12:15:49,253 INFO /usr/local/bin/bench worker --queue short
+2023-12-05 12:15:49,299 INFO /usr/local/bin/bench schedule
+2023-12-05 12:15:49,299 INFO /usr/local/bin/bench watch
+2023-12-05 12:15:49,330 INFO /usr/local/bin/bench worker --queue long
+2023-12-05 12:15:49,416 INFO /usr/local/bin/bench worker --queue default
+2023-12-05 12:19:48,650 INFO /usr/local/bin/bench find .
+2023-12-05 12:19:48,762 INFO A newer version of bench is available: 5.14.3 → 5.19.0
+2023-12-05 12:20:43,111 INFO /usr/local/bin/bench find .
+2023-12-05 12:20:43,244 INFO A newer version of bench is available: 5.14.3 → 5.19.0
+2023-12-05 12:21:13,744 INFO /usr/local/bin/bench new-app library_management
+2023-12-05 12:21:13,747 LOG creating new app library_management
+2023-12-05 12:22:31,283 LOG Installing library_management
+2023-12-05 12:22:31,283 DEBUG cd /home/its_pt/Work/frappe_learn/frappe-bench && /home/its_pt/Work/frappe_learn/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/its_pt/Work/frappe_learn/frappe-bench/apps/library_management 
+2023-12-05 12:22:36,074 DEBUG bench build --app library_management
+2023-12-05 12:22:36,154 INFO /usr/local/bin/bench build --app library_management
+2023-12-05 12:22:37,953 INFO A newer version of bench is available: 5.14.3 → 5.19.0
+2023-12-05 12:39:07,345 INFO /usr/local/bin/bench new-site library.test
+2023-12-05 12:46:50,236 INFO /usr/local/bin/bench new-site library.test
+2023-12-05 12:47:19,837 INFO /usr/local/bin/bench new-site library.test
+2023-12-05 12:50:09,865 INFO /usr/local/bin/bench new-site library.test
+2023-12-05 12:56:24,132 INFO /usr/local/bin/bench start
+2023-12-05 12:56:24,452 INFO /usr/local/bin/bench serve --port 8000
+2023-12-05 12:56:24,459 INFO /usr/local/bin/bench worker --queue long
+2023-12-05 12:56:24,496 INFO /usr/local/bin/bench watch
+2023-12-05 12:56:24,546 INFO /usr/local/bin/bench worker --queue short
+2023-12-05 12:56:24,559 INFO /usr/local/bin/bench schedule
+2023-12-05 12:56:24,580 INFO /usr/local/bin/bench worker --queue default
+2023-12-05 13:05:42,203 INFO /usr/local/bin/bench start
+2023-12-05 13:05:44,127 INFO /usr/local/bin/bench serve --port 8000
+2023-12-05 13:05:44,207 INFO /usr/local/bin/bench worker --queue long
+2023-12-05 13:05:44,229 INFO /usr/local/bin/bench worker --queue default
+2023-12-05 13:05:44,261 INFO /usr/local/bin/bench watch
+2023-12-05 13:05:44,287 INFO /usr/local/bin/bench worker --queue short
+2023-12-05 13:05:44,289 INFO /usr/local/bin/bench schedule
+2023-12-05 13:09:06,034 INFO /usr/local/bin/bench --site library.test add-to-hosts
+2023-12-05 13:09:35,732 INFO /usr/local/bin/bench start
+2023-12-05 13:09:36,003 INFO /usr/local/bin/bench worker --queue default
+2023-12-05 13:09:36,009 INFO /usr/local/bin/bench schedule
+2023-12-05 13:09:36,155 INFO /usr/local/bin/bench worker --queue short
+2023-12-05 13:09:36,186 INFO /usr/local/bin/bench serve --port 8000
+2023-12-05 13:09:36,191 INFO /usr/local/bin/bench worker --queue long
+2023-12-05 13:09:36,191 INFO /usr/local/bin/bench watch
+2023-12-05 13:12:48,269 INFO /usr/local/bin/bench start
+2023-12-05 13:12:48,541 INFO /usr/local/bin/bench schedule
+2023-12-05 13:12:48,607 INFO /usr/local/bin/bench worker --queue short
+2023-12-05 13:12:48,637 INFO /usr/local/bin/bench worker --queue long
+2023-12-05 13:12:48,671 INFO /usr/local/bin/bench worker --queue default
+2023-12-05 13:12:48,701 INFO /usr/local/bin/bench serve --port 8000
+2023-12-05 13:12:48,727 INFO /usr/local/bin/bench watch
+2023-12-05 13:15:20,836 INFO /usr/local/bin/bench --site library.test install-app library_management
+2023-12-05 13:17:30,851 INFO /usr/local/bin/bench --site library.test list-apps
+2023-12-05 13:27:46,917 INFO /usr/local/bin/bench --site library.test console
+2023-12-05 13:28:16,002 INFO /usr/local/bin/bench --site library.test mariadb
+2023-12-05 13:37:41,043 INFO /usr/local/bin/bench set-config -g developer-mode true
+2023-12-05 13:38:07,094 INFO /usr/local/bin/bench start
+2023-12-05 13:38:07,377 INFO /usr/local/bin/bench worker --queue default
+2023-12-05 13:38:07,392 INFO /usr/local/bin/bench watch
+2023-12-05 13:38:07,554 INFO /usr/local/bin/bench worker --queue short
+2023-12-05 13:38:07,570 INFO /usr/local/bin/bench schedule
+2023-12-05 13:38:07,587 INFO /usr/local/bin/bench serve --port 8000
+2023-12-05 13:38:07,589 INFO /usr/local/bin/bench worker --queue long
+2023-12-05 14:01:26,267 INFO /usr/local/bin/bench start
+2023-12-05 14:01:28,970 INFO /usr/local/bin/bench serve --port 8000
+2023-12-05 14:01:28,978 INFO /usr/local/bin/bench worker --queue short
+2023-12-05 14:01:28,985 INFO /usr/local/bin/bench watch
+2023-12-05 14:01:28,994 INFO /usr/local/bin/bench worker --queue long
+2023-12-05 14:01:28,995 INFO /usr/local/bin/bench schedule
+2023-12-05 14:01:29,001 INFO /usr/local/bin/bench worker --queue default
+2023-12-05 14:16:06,955 INFO /usr/local/bin/bench --site library.test mariadb
+2023-12-05 14:16:33,989 INFO /usr/local/bin/bench --site library.test mariadb
+2023-12-05 14:16:51,318 INFO /usr/local/bin/bench --site library.test mariadb
+2023-12-05 14:20:27,814 INFO /usr/local/bin/bench --site library.test mariadb
+2023-12-05 14:33:12,661 INFO /usr/local/bin/bench --site library.test console
+2023-12-05 14:46:18,628 INFO /usr/local/bin/bench --site library.test maridb
+2023-12-05 14:46:39,129 INFO /usr/local/bin/bench --site library.test maridb
+2023-12-05 14:46:51,079 INFO /usr/local/bin/bench --site library.test maridb
+2023-12-05 14:47:07,369 INFO /usr/local/bin/bench --site library.test mariadb
+2023-12-05 15:05:43,822 INFO /usr/local/bin/bench build
+2023-12-05 15:06:28,890 INFO /usr/local/bin/bench migrate
+2023-12-05 15:06:49,178 INFO /usr/local/bin/bench --site library.test migrate
+2023-12-05 15:09:04,236 INFO /usr/local/bin/bench migrate
+2023-12-05 15:09:08,972 INFO /usr/local/bin/bench build
+2023-12-05 15:11:46,587 INFO /usr/local/bin/bench --site library.test list-app
+2023-12-05 15:11:54,386 INFO /usr/local/bin/bench --site library.test list-apps
+2023-12-05 15:34:41,118 INFO /usr/local/bin/bench --site
+2023-12-05 15:35:08,260 INFO /usr/local/bin/bench --site
+2023-12-05 15:38:21,321 INFO /usr/local/bin/bench clear-cache
+2023-12-05 15:38:38,224 INFO /usr/local/bin/bench --site library.test clear-cache
+2023-12-05 15:38:43,977 INFO /usr/local/bin/bench --site library.test migrate
+2023-12-05 15:44:47,580 INFO /usr/local/bin/bench --site library.test clear-cache
+2023-12-05 15:44:50,150 INFO /usr/local/bin/bench --site library.test migrate
+2023-12-05 15:47:47,661 INFO /usr/local/bin/bench set-config -g developer_mode true
+2023-12-05 15:48:26,764 INFO /usr/local/bin/bench --site library.test set-config -g developer_mode true
+2023-12-05 15:48:50,636 INFO /usr/local/bin/bench --site library.test set-config -g developer_mode true
+2023-12-05 15:49:07,343 INFO /usr/local/bin/bench start
+2023-12-05 15:49:23,539 INFO /usr/local/bin/bench start
+2023-12-05 15:49:48,407 INFO /usr/local/bin/bench start
+2023-12-05 15:50:06,201 INFO /usr/local/bin/bench start
+2023-12-05 15:50:39,185 INFO /usr/local/bin/bench start
+2023-12-05 15:51:00,425 INFO /usr/local/bin/bench start
+2023-12-05 15:51:16,006 INFO /usr/local/bin/bench start
+2023-12-05 15:53:10,017 INFO /usr/local/bin/bench restart
+2023-12-05 15:53:10,552 INFO A newer version of bench is available: 5.14.3 → 5.19.0
+2023-12-05 15:53:17,216 INFO /usr/local/bin/bench start
+2023-12-05 15:54:08,978 INFO /usr/local/bin/bench start
+2023-12-05 15:57:20,497 INFO /usr/local/bin/bench start
+2023-12-05 15:57:23,809 INFO /usr/local/bin/bench start
+2023-12-05 16:00:18,486 INFO /usr/local/bin/bench start
+2023-12-05 16:00:18,788 INFO /usr/local/bin/bench schedule
+2023-12-05 16:00:18,820 INFO /usr/local/bin/bench worker --queue long
+2023-12-05 16:00:18,852 INFO /usr/local/bin/bench worker --queue short
+2023-12-05 16:00:18,856 INFO /usr/local/bin/bench serve --port 8000
+2023-12-05 16:00:18,866 INFO /usr/local/bin/bench watch
+2023-12-05 16:00:18,926 INFO /usr/local/bin/bench worker --queue default
+2023-12-05 16:01:07,777 INFO /usr/local/bin/bench start
+2023-12-05 16:01:08,083 INFO /usr/local/bin/bench serve --port 8000
+2023-12-05 16:01:08,119 INFO /usr/local/bin/bench worker --queue default
+2023-12-05 16:01:08,149 INFO /usr/local/bin/bench watch
+2023-12-05 16:01:08,181 INFO /usr/local/bin/bench schedule
+2023-12-05 16:01:08,202 INFO /usr/local/bin/bench worker --queue long
+2023-12-05 16:01:08,210 INFO /usr/local/bin/bench worker --queue short
+2023-12-06 11:08:44,713 INFO /usr/local/bin/bench start
+2023-12-06 11:08:46,618 INFO /usr/local/bin/bench schedule
+2023-12-06 11:08:46,627 INFO /usr/local/bin/bench worker --queue default
+2023-12-06 11:08:46,650 INFO /usr/local/bin/bench worker --queue long
+2023-12-06 11:08:46,731 INFO /usr/local/bin/bench watch
+2023-12-06 11:08:46,752 INFO /usr/local/bin/bench worker --queue short
+2023-12-06 11:08:46,761 INFO /usr/local/bin/bench serve --port 8000
+2023-12-06 12:00:01,967 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-06 13:23:06,242 INFO /usr/local/bin/bench find .
+2023-12-06 13:23:06,674 INFO A newer version of bench is available: 5.14.3 → 5.19.0
+2023-12-06 13:23:17,757 INFO /usr/local/bin/bench start
+2023-12-06 13:23:19,535 INFO /usr/local/bin/bench schedule
+2023-12-06 13:23:19,575 INFO /usr/local/bin/bench watch
+2023-12-06 13:23:19,584 INFO /usr/local/bin/bench serve --port 8000
+2023-12-06 13:23:19,614 INFO /usr/local/bin/bench worker --queue long
+2023-12-06 13:23:19,634 INFO /usr/local/bin/bench worker --queue short
+2023-12-06 13:23:19,641 INFO /usr/local/bin/bench worker --queue default
+2023-12-06 18:00:02,473 INFO /usr/local/bin/bench --verbose --site all backup
